@@ -1,0 +1,284 @@
+/* 消除网页默认属性开始 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    font-family: "微软雅黑";
+    background-color: #ffe0f0;
+}
+/* 消除网页默认属性结束 */
+
+/* 网页头部区域样式开始 */
+.header {
+    width: 1200px;
+    height: 320px;
+    margin: auto;
+}
+.header>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* 网页头部区域样式结束 */
+
+/* 导航条区域开始 */
+.nav {
+    width: 1200px;
+    height: 50px;
+    background-color: #ffffffC;
+    margin: auto;
+    line-height: 50px;
+    text-align: center;
+}
+.menu {
+    margin: auto;
+    display: flex;
+    width: 1000px;
+}
+.menu>a {
+    font-size: 18px;
+    color: #8a8787;
+    display: block;
+    height: 50px;
+    width: 200px;
+}
+.menu>a:hover {
+    background-color: #cc5488;
+    color: #fff;
+}
+/* 导航条区域结束 */
+
+/* 中间视频及文字区域样式开始 */
+.box1 {
+    width: 1200px;
+    height: 300px;
+    margin: 10px auto;
+    display: flex;
+}
+/* 左边视频区域 */
+.box1-left {
+    width: 450px;
+    height: 100%;
+}
+.box1-left>video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* 右边文字介绍区域 */
+.box1-right {
+    width: 750px;
+    height: 300px;
+    padding: 20px;
+}
+.box1-right>h3 {
+    color: #626262;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.box1-right>p {
+    font-size: 20px;
+    color: #968c91;
+    text-indent: 2em;
+}
+/* 中间视频及文字区域样式开始 */
+
+/* 标题区域开始 */
+.title {
+    width: 1200px;
+    height: 50px;
+    background-color: #ff9dc3;
+    margin: auto;
+    line-height: 50px;
+}
+.title>h3 {
+    color: #ffffff;
+    margin-left: 10px;
+}
+/* 标题区域结束 */
+
+/* 活动介绍区域样式开始 */
+.Introduction {
+    width: 1200px;
+    margin: 10px auto;
+    padding: 10px;
+}
+.Introduction>p {
+    color: #8a8787;
+    font-size: 16px;
+    text-indent: 2em;
+}
+.Introduction>img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    margin-top: 20px;
+
+}
+/* 活动介绍区域样式结束 */
+
+/* 组合域样式开始 */
+.Cast {
+    width: 1200px;
+    margin: auto;
+}
+.Cast-list {
+    width: 1200px;
+    height: 350px;
+    display: flex;
+}
+/* 卡片盒子 */
+.card {
+    width: 290px;
+    height: 350px;
+    margin-left: 13px;
+}
+/* 卡片盒子上方照片区域 */
+.card-top {
+    width: 290px;
+    height: 300px;
+}
+/* 照片属性 */
+.card-top>a>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* 卡片下方文字区域 */
+.card-buttom {
+    width: 290px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+/* 文字属性 */
+.card-buttom>p {
+    color: #8a8787;
+    font-size: 18px;
+}
+/* 组合区域样式结束 */
+
+/* 动画区域样式开始 */
+.role-introduction {
+    width: 1200px;
+    margin: auto;
+}
+/* 列表盒子 */
+.role-introduction-list {
+    width: 1200px;
+    height: 300px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+/* 右边列表 */
+/* 列表左边区域 */
+.list-left {
+    width: 600px;
+    height: 300px;
+    display: flex;
+}
+/* 列表左边照片区域 */
+.list-left-left {
+    width: 250px;
+    height: 300px;
+    padding: 10px;
+}
+.list-left-left>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* 列表右边文字区域 */
+.list-left-right {
+    width: 350px;
+    height: 300px;
+    padding: 20px;
+}
+.list-left-right>ul>li {
+    color: #ce4b84;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.li3 {
+    font-size: 14px!important;
+}
+
+/* 右边列表 */
+.list-right {
+    width: 600px;
+    height: 300px;
+    display: flex;
+}
+.list-right-left {
+    width: 250px;
+    height: 300px;
+    padding: 10px;
+}
+.list-right-left>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.list-right-right>ul>li {
+    color: #ce4b84;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.list-right-right {
+    width: 350px;
+    height: 300px;
+    padding: 20px;
+}
+/*动画区域样式结束 */
+
+/* game部分参考index主页部分 */
+
+/* 原来的游戏区表格，用不上了，但舍不得删除呜呜呜: */
+.box-office {
+    width: 1200px;
+    height: 800px;
+    background-color: aqua;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+}
+body,td,th {
+	color: #8a8787;
+}
+/* 我是分界线 */
+
+/*报告内容区域样式开始 */
+.container {
+    width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+.container>h4 {
+    color: #0b0b0b;
+    font-size: 20px;
+    margin: 20px;
+}
+.container>p {
+    color: #8a0517;
+    font-size: 18px;
+    text-indent: 2em;
+}
+/* 报告内容区域样式结束 */
+
+/* 网页底部区域样式开始 */
+.footer {
+    width: 100%;
+    height: 60px;
+    background-color: #df328c;
+    margin-top: 15px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    line-height: 60px;
+}
+/* 网页底部区域样式结束 */
